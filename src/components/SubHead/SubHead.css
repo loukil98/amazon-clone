@@ -1,0 +1,96 @@
+.SubHeader__container {
+    display: flex;
+    align-items: center;
+    background-color: #232F3E;
+    color: white;
+    padding: 4px;
+    justify-content: space-between;
+}
+
+.SubHeader__verticalline {
+    border-right: 2px #A1A5A8 solid;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.Subheader__secondsection {
+    display: flex;
+    align-items: center;
+}
+
+.Subheader__firstsection {
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+}
+
+.SubHeader__firstsectionText {
+    display: flex;
+    margin-left: 5px;
+    justify-content: space-between;
+    flex: 0.94;
+    font-size: 15px;
+}
+
+.playArrowIcon {
+    background-color: #01A6DE;
+    border-radius: 50%;
+    font-size: 25px !important;
+    padding: 5px;
+}
+
+.toutes {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.menuIcon {
+    margin-right: 2px;
+}
+
+.SubHeader__firstSectionContainer {
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+}
+
+.primeVideo {
+    color: #00A8E1;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 7px;
+}
+
+@media only screen and (max-width: 1252px) {
+    .livres {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1564px) {
+    .informatique {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1463px) {
+    .high {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1380px) {
+    .cuisine {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1197px) {
+    .service {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1084px) {
+    .ventes {
+        display: none;
+    }
+}
