@@ -5,6 +5,7 @@
     color: white;
     padding: 4px;
     justify-content: space-between;
+    z-index: 99;
 }
 
 .SubHeader__verticalline {
